@@ -22,6 +22,7 @@ public class LoginActivity extends AppCompatActivity {
                 SaveSharedPreferences.setUserName(LoginActivity.this,username.getText().toString());
                 Intent homepage = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(homepage);
+
             }
         });
 

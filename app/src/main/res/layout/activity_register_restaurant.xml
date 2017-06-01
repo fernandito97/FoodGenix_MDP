@@ -11,10 +11,17 @@
         android:layout_height="wrap_content"
         android:paddingTop="56dp"
         android:paddingLeft="24dp"
-        android:paddingRight="24dp">
+        android:paddingRight="24dp"
+        android:background="@drawable/backgroudnstandard">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
 
         <ImageView android:src="@drawable/logo"
-            android:layout_width="wrap_content"
+            android:layout_width="310dp"
             android:layout_height="72dp"
             android:layout_marginBottom="24dp"
             android:layout_gravity="center_horizontal" />
