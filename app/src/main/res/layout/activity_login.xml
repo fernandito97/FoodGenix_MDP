@@ -10,7 +10,7 @@
     tools:context="com.genix.foodgenix.LoginActivity"
     android:background="@drawable/backlogin">
 
-<LinearLayout
+    <LinearLayout
         android:layout_centerInParent="true"
         android:id="@+id/email_login_form"
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
             android:layout_marginTop="16dp"
             android:text="Sign in"
             android:textStyle="bold"
-            android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+            android:background="@android:color/white"
             android:textColor="@android:color/black" />
 
     </LinearLayout>

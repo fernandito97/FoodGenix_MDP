@@ -1,10 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.view.ViewPager
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/pager"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:animateLayoutChanges="true"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context="com.genix.foodgenix.MainActivity"
+    android:orientation="vertical">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
 
-</android.support.v4.view.ViewPager>
+        <EditText
+            android:id="@+id/edSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="What would you like to eat?"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:rowCount="2">
+
+        <Button
+            android:id="@+id/btnListOfRestaurant"
+            android:layout_width="190dp"
+            android:layout_height="188dp"
+            android:background="@drawable/buttonlistrestaurant" />
+
+        <Button
+            android:id="@+id/btnNearbyRestaurant"
+            android:layout_width="190dp"
+            android:layout_height="188dp"
+            android:text="nearby" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="190dp"
+            android:layout_height="188dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="190dp"
+            android:layout_height="188dp"
+            android:text="Button" />
+
+    </GridLayout>
+
+</LinearLayout>

@@ -2,175 +2,490 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\74ad37333666f413ed0afe462449c176c1c06dc9\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\3bddb7eb64904a9c0165a845d8e8f41b8ee24853\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_ee42d682c5c488660c0bed408d51337f011544dd.jar" />
+        sha1="5e651c1430cc9b8a3b3b5a9d92bb173214dfdf42">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e4a70d6b739485dd7a77b72a831552365c41c570\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\52eb4fe066f6474c24a635ca4afc05d1c57e02b4\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\703b25687f4e2bb777d5e0dca56b6ac44c8afa7f\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_cb705047f4deff90558e6bb2745e5106bc98b04b.jar" />
+        sha1="de2c50f4a24277d22d675d598640da6d4622b14d">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5a3872ea31b20b3fda7d09763c4e54aa845ed5f2\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\9121b88f4857fed5fe39a7e9575117649f8d49a6\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\b9f995de69d333feba8091b22ca8a074801fabd3\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_fa3fbe5f41b348510b0912e804dca2936242612b.jar" />
+        sha1="938ba83fbb26987368049237e47718d56e91e222">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_74428b9bfbaa499446363e82828ca1b35e1575c4\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\c2e94d45e5922e1ae062515d46a6037927b91ac1\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\a9c23d8e5d6e546cf08e01ffe182904b2f005a5e\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_a38e389a7527a283ecc3d5589d0defb79073682a.jar" />
+        sha1="ba2f029ff37297295d2d197ac6e957b361bfccaf">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6950702068424d7d6342318297213054de5d61d7\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\a8866fa60e1013b86f83e5d96d25d3610f4a3772\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\2098bc86018229f57d80f28a7e3c36fd4813da75\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_cfff934cd0823fc3bf2619236779cdb8cf69ebba.jar" />
+        sha1="f4540ad2a6e3741694e9332f0c20607c780fae6c">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_64f41d3a22284fd49b859cce491c17515e18ba67\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\e983df12c6e09e0ca39f800a6b63fb622f696e33\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\35a8a85182d16369db3df84979a6cd5173652260\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_9a50ae1c33c5a0af107269d0834432405a0c6bcc.jar" />
+        sha1="7a343e17f154f513a09c12946fae0f172be079ec">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_41c88924b10059fde18014c25658e5f50ab6bc4a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\70a2395649b90dfb4c63d7830686234c00905dc9\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\d06200e3f6f0497897e878f2728805c46c4f2289\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_706abb3093c882f13804b165e3fdf5d7136c6358.jar" />
+        sha1="614b2ffd04818e865e1c02cc149c6b92e518e862">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_15590ce355e929955ba830cd98b6776138482a42\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\bbad4c5c88be6c6121e3ae6d4cef18080334f598\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\e0ae3e1a6da45f532a2860135b2477e257d78fe0\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_9aff68e4ada97db5bd8ab451ed97e39fee804073.jar" />
+        sha1="97e3259dcdaa9b33014a849f6d3bdbb4ef478383">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af7a3db884df551b444f529cb07cbe6b8eedd912\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\f8d4c3f6f81e174dee80e940925de80b2dd4b5ad\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\286d1eab70744ed15470d603856d9df27d04c9b5\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_0b13e05f598e7ea083abe22c50c66ba52a4d1b54.jar" />
+        sha1="12e94600a0ea3beae6ea0f1d18a0768ded5bc1ae">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_68b242471f3b38b712c376b0ff009725cebdf592\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\dcc4627af2b790cc5819460b03b61b09f94516b0\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_94471ad68674b79a82f6a2880f322a3046e6cc76.jar" />
+        sha1="9f5c557145ddef094005eb73d72a7eaf330a0cf1">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a2a7a7c4e27e782fe91bbca7e9a1d03e0d6c28f4\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\55b3d9b3bcb72b1642a67f8ff73a7c5dad116986\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\ae75d46d4d931169a644a33011de7364e5760151\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_c52a701ef99339550440dea9d8fafd9bbb674731.jar" />
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e90299e0cb630b2dc3171f1ce027070fa8166b2a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\fdb71dd6d5b1489eadd8f579e1d71643de9fdb19\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\23f31983091f320e249f86615cd35ac9c74b21a0\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_a9b964924a2de03a2f6f0871b2214baca1736b01.jar" />
+        sha1="4cfc5a74aa9453cbec685cdbcb3e3f3539b483bd">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_16e7370a1c377a911c784bd61f874fa04f68cedb\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\c9521a1d7f785ffb3bd5e22667afc24b3e3a7a07\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\77b12780fb03157531ef595d43e9b3080133c98f\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_45a7ab4f8e4721dea2bdd05685772667881a7af3.jar" />
+        sha1="43ab9b69758a0f22706629223c367e9bd478e1a8">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_81863402351c1e3e8f1c280a603abf2c7f495034\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\71f258a99ecf80dc62dbbd66a7101e123c54944a\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_6f7b4a839ab4beeb6f576ea41fab22b702bf6c7d.jar" />
+        sha1="f6afcfbf1989631424f9ceaae6ee24777d3cf6ba">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_61fd81b7f57cae7d8308771e54602e00a1115fb4\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\29e466ef80e25fb1967ef2eac3b2b57a70c0d509\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\3ce4ca04a0dd253916520ce867113e74f0342f01\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_eeadc3ce81f7a7641490cb7e09b8adbe43fe1cb9.jar" />
+        sha1="ce5313bb5ccc0c1e10c995e4efb2f2b08c848b39">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7660b771e665a1cd9b1113ee497647a70977bedd\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\b4d3ba4307943622ac19ab6ed018f327c29dbd36\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\3ccf00aee62452533f3a583a5c37e1b9b3536e80\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_201f23a1665772f9d25aec36e5de5ebaa08f367f.jar" />
+        sha1="d1e7862a5a7675940acb6efcab34b38de89c9e18">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_de16edfa99cfcf7d93dcb825622ad839809b4ba9\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\c892a1c719c0221d17f2f39ff88e23a4a77f9845\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_326a9ffd36f926b5cb3371eb430daf9047a23a76.jar" />
+        sha1="218bfef2e6dc1454f002b2bdbbde8e587194ca16">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a444ee1f2fd3660e5d512d010e5266a49eb01a8c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\c82d051eb19d477ebb3f810904366de5f678ecc2\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\e869c47ae9961d6979f244098c8bbb249240b477\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_466af46344f8afc32993c994b5412a4e44c38405.jar" />
+        sha1="a723c85825d9591baec200523c10662e30c8bed7">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c117102d8b2f410462b094f2319308ed4ae1f5d3\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\DARREN\.android\build-cache\2859416b53cced2247e586b29bde91f46cc3b1e8\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\e65c90b9b11dda2d89d404571fa79a5c8ba63fab\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\Users\DARREN\.AndroidStudio2.3\FoodGenix_MDP\app\build\intermediates\pre-dexed\debug\classes_5cc02f4824b3812916744109a1893ee8d43e0d9a.jar" />
+        sha1="0ef21408e3142ffbfbd4a7ec1762c3325c6c386c">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e5c9cebffddd6d95da272540edbcfe542e619058\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\136f3c9ead9be99d94d532fbbb6f5046076809c1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5fef4ad8c5b2519596b80a241d56b69dffcd6845">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2164e4833aec0f40b765f8099ef8bee8c07e1264\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\d83874da382943f2edde75f3c87be3c8d85e034a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a917154cf730ea6ec2495705309e6a4065cde2ac">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_276fe9a7de6b23f38abc7de6925f18ae6851b7b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\feeee0c51b4fd061ab5f952a22eda8c566fc3c25\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6d16df2955bbd154b36819386cfd2e3b7f7cae5b">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bc76515188e60d93a5cd30db810e440e9cd27ebf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\34c8e63c3692104c4d17cfee31a3907539c26afd\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_a6ca8f939feb602242f7f7e7a678909f4d532c6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\f7703c689922ed1d71a0c3ccc6642d202bd6ca91\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f861fce2e9fa167e7fe8d8558cf2cbb910b9fb34">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_23f39b0ba221f818bca96dcf932024393351f419\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\34c8e63c3692104c4d17cfee31a3907539c26afd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7e7618e43fa32a9b89fb50edb2e3b786c33bd765\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\1952b0beb4b13974bf89c7d25ba436841488e1b9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="266e4ac186afacc3b220a0cf8382348283b42407">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_978aa9f0c4107776718918818b841e346f1f4290\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\e2c110c92965d3d08681b9b4ef496b8150614706\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a93aa431de60b775c91158433f3c687f1d32cb9c">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f3a6b081984f4870c11da9854b8807da83e3dbc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\9713808ef13a062b776d96e78be046b94eed1c8a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4ab00b7d310cfdfff3a9446554485647153d0792">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1d54fa6f1b3f0d875edbeb498bfd0882f6b7749d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\962451b89721830379e4979cecbfa6b2daf93e83\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="73699fb64ea3de4a43d0f5c37dc525a5e1341ca1">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1af28ec35e03831d9d7b332f81bb79200b444641\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\65a78beaa6f496eed54c78ab2f7de61f17bdf4b3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="26cd46f7bc6e1f269062b61269317a29329a9a7b">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_de8348126d36e899bd2d3ab7ca6ebfbf2447afc8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\4bbf7a693ee2870c1f2fe94182a5679c9cdb4c2b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="db0a4170961a16af6d7a5222bf90a5876eea4227">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1ca0b765380a9845b765e1dfa781df74e1abe7d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_262cdc96f6862476e773286be267f3e57d873c9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\5cb1620d4cd48617120febb4c2169e5ea8f94fbe\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3270d392adef5decc7bace1a3c2e749bec7bf19e">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_691690e3173f6e1c0f00ea396f45cfe245f8f177\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\a6f068c363e14e50a7b5f15e17f7319558276dad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="53f7fbab5e6f4149eb5a1cdeabaeeeee11a84ebe">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_612209b8a64fe8c4779b357b2d2d55a011182a0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\be803a5ddab6537afed8f11daebfaa7d978e5106\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="eb96a230c7b55d545fbdee45157a5a75b2b26284">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d8506a852bab14bd9727079ab11367fab6473d7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\81785af07013b3b818b86d6fd3f9340bd303bd63\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="300e72616fdf265bb36bff7adb1ebec7b1d72817">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_58f93362580e47737052635f3f40900d1d04c966\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\441dd3cc82bafe737d3e833de56ed2c1c1dd913a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6079f942bb34faee179b4c46396a26fbbfc43e5d">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f363129967ad526c720b45283025e3a2c6458031\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\33a068559ec77f5429203955120a91de99bcce60\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f2c9c986087e5862518757d0c988c8eac1a47bfd">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e91fe836e7c04d83adbab04f3cee06ab183fad5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\9cffc7db286b7f4d6f7caf963bcd756a3a235b01\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="74d1712880eb2b4ab37ddf3c6a3232c883756726">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6ff7ebc83c1270ce74ec1cbdd84f7cd0c2052458\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\54005b78699d63962cfb62b3e97c840e47fdafc9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5243af50631020511cf2403789678149b1a319e6">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9214001a25b0978a88c545a6f403368c2ec5cc06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\997aae1e8da73545f9cfc1999a65e9779111631a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1f4bb2577a30d0b3268fed038ed59230709ad593">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_77edf37fa27cd5f2b22d00f2721caa0afaf4570c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\3fe7ff8609988e5699a7f268f31f45d0558e96ea\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1bf2ceb0034efe20249a561096f6e288cce7a0a4">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_27412e1fe65f2858fdcaca2a57968c0ccf88f68a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\c9bc6a48d2b48d33c51e1a40157c4d63316369c4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93a0248fe0524b4fa2d16f5f7c3cff8452796454">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1f40196ddad278b88d93bf73f9bb7617621d3246\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\a6b72fc806789269ccb22e2808e3d2c47c8a0ad6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ea5537e2a88ce0497d3e2272b1cf93f2e0c77b0d">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_305c5d25855e4261f7faa00754c124001932944d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\f6a78711135a5ed2cadae07dcd0b69415c043700\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf803332f826adea247cc452d0bb04d7943f0007">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_caadad74c6a8f03c8ca410ee8846089fc37c7b15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\389db63bb854f45da6769a97ef95bf038d9f25e2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bd11b3899f275668a9355f19cea2c2320f5f9d14">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6524def0312af7076ee732b58b9e442d8d908482\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\71cb88125f06c550c0e0cc98edd8655aab92ae8c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d57767271a9c140da143ec0db9a0673b6d96eccb">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d398f3435b6b0c44f3fd09cd6c6276e90f4bc564\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\b137a16a3fec08ac7799994f99ef19de57f3e737\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7357a05eea2a049c33488c7e8c6f887b3483d4b8">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5da5845f872562ab9262a7fab74329dc416cdce5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\6e621e5a946032c31445d0f9f06a0fba9525b813\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a9f41e6463de88c3f979d796382fc24fb7e9cd41">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_397398c0bf598308f50a3a996e0e627625eb7375\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\a4b830573ab887db6674e7197258ad15c00549a7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d39f676be8400123523882d189a1d84040d34339">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9809e4d1f51bdb93c6955df0d823ec551185badb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\4efec97bbeb4f10b1cdb9971c46bd76a3f787a5c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="580fa73d5bf63ffd04b9d66d0e75a2ed21842702">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f5e149c538a4b957cd3275434fe0f0cebba2f353\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\a298a74fbd12eb21a885d78ffaa194c57ad033b0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c48db997d87eb3e3ad47713cfbfe7cb878a2e66c">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_131a4261e4e0078a1319c45c5f17252589c7616d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\2609d9ffecd48736394fc8fd19c26ebe698acad9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="415336382149f2a79eb80599e340e188f6724d6d">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_679e34e1fa99231679419f193b0ccc9be29309b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\.android\build-cache\8720a2d0091c64db02d500d37003ac1a6ff31e03\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a5da6fc5a6f39aee309ae6ae670e1b942759dc51">
+        <dex dex="C:\Users\PC\Desktop\FoodGenix\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a026f412a1686d0bc74ecd94775475491f6e0987\classes.dex" />
     </item>
 
 </items>
