@@ -22,6 +22,7 @@ import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.HashMap;
 
 public class LoginActivity extends AppCompatActivity {
     Button btnSignIn;
@@ -38,57 +39,18 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //login
-                new loginTask().execute(edUserName.getText().toString(),edPassword.getText().toString());
+                HashMap<String,String> params = new HashMap<String, String>();
+                params.put("username",edUserName.getText().toString());
+                params.put("password",edPassword.getText().toString());
+                new loginTask().execute(params);
             }
         });
     }
-    private class loginTask extends AsyncTask<String,Void,String>
+    private class loginTask extends AsyncTask<HashMap<String,String>,Void,String>
     {
         @Override
-        protected String doInBackground(String... params) {
-            String response = "";
-            // URL url = new URL("http://google.com/controller/function"); untuk server
-            try
-            {
-                URL url = new URL("http://10.0.2.2/edws/restaurant/login"); //untuk emulator
-
-                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                conn.setRequestProperty("APIKEY",SaveSharedPreferences.getApiKey());
-                conn.setRequestMethod("POST");
-                String parameter = "username="+params[0]+"&password="+params[1];
-
-                OutputStream outputstream = conn.getOutputStream();
-                BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputstream,"UTF-8"));
-
-                writer.write(parameter);
-                writer.flush();
-                writer.close();
-                outputstream.close();
-
-                int responseCode = conn.getResponseCode();
-                if(responseCode == HttpURLConnection.HTTP_OK)
-                {
-                    String line ="";
-                    BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-                    while((line = reader.readLine())!= null)
-                    {
-                        response += line;
-                    }
-                    reader.close();
-                }
-                else
-                {
-                    response = "Gagal konek ke server";
-                }
-
-            }catch (MalformedURLException e)
-            {
-                e.printStackTrace();
-            }
-            catch (IOException e)
-            {
-                e.printStackTrace();
-            }
+        protected String doInBackground(HashMap<String,String>... params) {
+            String response = EDWSRequest.Request("POST","restaurant/login",params[0]);
             return response;
         }
         @Override

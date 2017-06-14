@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mylaptop.proyekmdpsettingrestaurant.MyRestaurantActivity"
+    >
+    <RelativeLayout
+        android:id="@+id/activity_my_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true">
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@android:color/darker_gray"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:text="Jonin Resto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNama"
+            android:textSize="30sp"
+            android:fontFamily="serif"
+            android:textStyle="normal|bold|italic"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="13dp" />
+
+        <Button
+            android:text="..."
+            android:id="@+id/btnChangePic"
+            android:layout_width="50sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_height="35sp"
+            android:alpha="0.6" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="Address :"
+                    android:layout_width="99dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAddress" />
+
+                <EditText
+                    android:layout_width="257dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:text="Jl Ngagel Jaya Tengah"
+                    android:ems="10"
+                    android:id="@+id/edAddress"
+                    android:layout_weight="0.60" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Phone Number :"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView11" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(031) 76772832"
+                    android:ems="10"
+                    android:id="@+id/edPhoneNumber"
+                    android:layout_weight="1"
+                    android:inputType="phone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Email :"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12"
+                    android:layout_weight="1.14" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jonin@yourheart.com"
+                    android:ems="10"
+                    android:id="@+id/edEmail"
+                    android:layout_weight="0.65"
+                    android:inputType="textEmailAddress" />
+            </LinearLayout>
+
+            <Switch
+                android:text="View Open Schedule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/swOpenSchedule"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/layoutTime">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinDay"
+                    android:entries="@array/spinnerItems"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:checkedButton="@+id/rbOpen">
+
+                            <RadioButton
+                                android:text="Open"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/rbOpen"
+                                android:layout_weight="1"
+                                />
+
+                            <RadioButton
+                                android:text="Close"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/rbClose"
+                                android:layout_weight="1" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+
+                    <TimePicker
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/timePicker"
+                        android:timePickerMode="spinner"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:text="Change Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnChangePassword"
+                android:layout_marginTop="25dp"/>
+
+            <Button
+                android:text="Save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSave" />
+
+        </LinearLayout>
+
+        <com.theartofdev.edmodo.cropper.CropImageView
+            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cropImageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </RelativeLayout>
+</ScrollView>

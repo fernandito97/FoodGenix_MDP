@@ -55,8 +55,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     private boolean mLocationPermissionGranted = false;
     public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
     EditText edSearch;
-    Button btnListOfRestaurant, btnNearbyRestaurant;
-
+    Button btnListOfRestaurant, btnNearbyRestaurant,button11;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,6 +89,15 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 new nearbyRestaurantTask().execute();
             }
         });
+        button11 = (Button)findViewById(R.id.button11);
+        button11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MyRestaurantActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     protected void checkLogin() {
