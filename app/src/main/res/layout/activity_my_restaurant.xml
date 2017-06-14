@@ -3,173 +3,262 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.mylaptop.proyekmdpsettingrestaurant.MyRestaurantActivity"
+    android:layout_height="fill_parent"
     >
     <RelativeLayout
+        android:paddingBottom="50dp"
         android:id="@+id/activity_my_restaurant"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:animateLayoutChanges="true">
-        <ImageView
+        android:animateLayoutChanges="true"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageView"
+            android:layout_marginLeft="60dp"
             android:layout_width="match_parent"
-            app:srcCompat="@android:color/darker_gray"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginBottom="20dp"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/restaurant_512" />
+        <!--ImageView
+
+            android:layout_width="match_parent"
+            app:srcCompat="@color/colorPrimary"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true"
             android:id="@+id/imageView"
-            android:layout_height="150dp" />
+            android:layout_height="150dp"
+            android:background="@drawable/border_foodgenix"/-->
 
         <TextView
-            android:text="Jonin Resto"
+            android:id="@+id/txtNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/txtNama"
-            android:textSize="30sp"
-            android:fontFamily="serif"
-            android:textStyle="normal|bold|italic"
-            android:textAllCaps="false"
-            android:textAlignment="center"
             android:layout_alignBottom="@+id/imageView"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="13dp" />
+            android:layout_marginBottom="13dp"
 
-        <Button
-            android:text="..."
-            android:id="@+id/btnChangePic"
-            android:layout_width="50sp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="15dp"
-            android:layout_height="35sp"
-            android:alpha="0.6" />
+            android:alpha="1"
+            android:background="#88f18e41"
+            android:fontFamily="sans-serif-medium"
+            android:text="Jonin Resto"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
+            android:paddingTop="25dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/imageView">
+            android:layout_below="@+id/imageView"
+            android:background="@color/colorPrimary"
+            >
 
             <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
                 android:weightSum="1">
-
-                <TextView
-                    android:text="Address :"
-                    android:layout_width="99dp"
+                <LinearLayout
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/txtAddress" />
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp"
+                    android:weightSum="1">
 
-                <EditText
-                    android:layout_width="257dp"
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="15dp"
+                        android:text="Address"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"></TextView>
+
+                    <EditText
+                        android:id="@+id/edAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_foodgenix"
+                        android:hint="Address"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:textSize="@dimen/ef_font_small" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:text="Jl Ngagel Jaya Tengah"
-                    android:ems="10"
-                    android:id="@+id/edAddress"
-                    android:layout_weight="0.60" />
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp"
+                    android:weightSum="1">
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="3dip"
+                        android:background="#FFFFFF"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        />
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:text="Phone Number :"
-                    android:layout_width="wrap_content"
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="15dp"
+                        android:text="Phone Number"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"></TextView>
+                    <EditText
+                        android:id="@+id/edPhoneNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:background="@drawable/edit_text_foodgenix"
+                        android:textSize="@dimen/ef_font_small"
+                        android:hint="Phone Number"
+                        android:layout_marginRight="10dp"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="3dip"
+                    android:background="#FFFFFF"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/textView11" />
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp"
+                    android:weightSum="1">
 
-                <EditText
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="(031) 76772832"
-                    android:ems="10"
-                    android:id="@+id/edPhoneNumber"
-                    android:layout_weight="1"
-                    android:inputType="phone" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="15dp"
+                        android:text="Email"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold">
 
-            </LinearLayout>
+                    </TextView>
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:text="Email :"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView12"
-                    android:layout_weight="1.14" />
-
-                <EditText
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Jonin@yourheart.com"
-                    android:ems="10"
-                    android:id="@+id/edEmail"
-                    android:layout_weight="0.65"
-                    android:inputType="textEmailAddress" />
+                    <EditText
+                        android:id="@+id/edEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:background="@drawable/edit_text_foodgenix"
+                        android:textSize="@dimen/ef_font_small"
+                        android:hint="Email"
+                        android:layout_marginRight="10dp"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="3dip"
+                    android:background="#FFFFFF"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    />
             </LinearLayout>
 
             <Switch
-                android:text="View Open Schedule"
+                android:id="@+id/swOpenSchedule"
+                style="@style/Widget.AppCompat.CompoundButton.Switch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/swOpenSchedule"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="50dp"/>
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:switchTextAppearance="@style/TextAppearance.AppCompat"
+                android:text="View Open Schedule"
+                android:textColor="@android:color/secondary_text_light" />
 
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/layoutTime">
+                android:id="@+id/layoutTime"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
 
                 <Spinner
+                    android:padding="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:id="@+id/spinDay"
-                    android:entries="@array/spinnerItems"/>
+                    android:entries="@array/spinnerItems"
+                    android:background="@drawable/edit_text_foodgenix"
+                    />
 
                 <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1">
 
                     <LinearLayout
-                        android:orientation="vertical"
+                        android:orientation="horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        >
 
 
                         <RadioGroup
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:checkedButton="@+id/rbOpen">
+                            android:orientation="horizontal"
+                            android:checkedButton="@+id/rbOpen"
+                            android:layout_weight="1">
 
                             <RadioButton
-                                android:text="Open"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
                                 android:id="@+id/rbOpen"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                />
+                                android:textColor="@android:color/secondary_text_light"
+                                android:text="Open" />
 
                             <RadioButton
                                 android:text="Close"
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:textColor="@android:color/secondary_text_light"
                                 android:id="@+id/rbClose"
                                 android:layout_weight="1" />
                         </RadioGroup>
@@ -177,10 +266,10 @@
 
 
                     <TimePicker
+                        android:id="@+id/timePicker"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/timePicker"
-                        android:timePickerMode="spinner"/>
+                        android:timePickerMode="spinner" />
 
                 </LinearLayout>
 
@@ -191,21 +280,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnChangePassword"
-                android:layout_marginTop="25dp"/>
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@android:color/white"
 
+
+                />
             <Button
                 android:text="Save"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/btnSave" />
+                android:id="@+id/btnSave"
+
+                android:backgroundTint="@android:color/white"/>
 
         </LinearLayout>
-
-        <com.theartofdev.edmodo.cropper.CropImageView
-            xmlns:custom="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/cropImageView"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
     </RelativeLayout>
 </ScrollView>

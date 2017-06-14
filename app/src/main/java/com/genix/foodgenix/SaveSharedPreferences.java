@@ -13,10 +13,18 @@ import org.json.JSONObject;
 public class SaveSharedPreferences {
         static final String apiKey = "417ebb5ba57f1379ddc9d66311b91278";
         static final String PREF_USER_ID= "USERID";
+
         static SharedPreferences getSharedPreferences(Context ctx) {
             return PreferenceManager.getDefaultSharedPreferences(ctx);
         }
-
+        public static boolean isRestaurant(Context ctx){
+            return getSharedPreferences(ctx).getBoolean("isrestaurant",false);
+        }
+        public static void setIsRestaurant(Context ctx,boolean isRestaurant){
+            SharedPreferences.Editor editor = getSharedPreferences(ctx).edit();
+            editor.putBoolean("isrestaurant",isRestaurant);
+            editor.commit();
+        }
         public static String getApiKey(){
             return apiKey;
         }

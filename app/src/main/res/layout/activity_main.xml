@@ -6,66 +6,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.genix.foodgenix.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10dp">
-
-        <EditText
-            android:id="@+id/edSearch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:hint="What would you like to eat?"
-            android:inputType="textPersonName" />
-
-    </LinearLayout>
-
-    <GridLayout
+    <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:columnCount="2"
-        android:paddingLeft="5dp"
-        android:paddingRight="10dp"
-        android:paddingTop="10dp"
-        android:rowCount="2">
+        android:layout_weight="0.98"
+        android:layout_alignParentStart="true"
+        android:id="@+id/listview"
+        android:dividerHeight="-35dp"
+        android:layout_alignParentTop="true"
+        android:background="#44f18e41"
+        android:padding="0dp"
+        android:visibility="visible">
 
-        <Button
-            android:id="@+id/btnListOfRestaurant"
-            android:layout_width="190dp"
-            android:layout_height="188dp"
-            android:background="@drawable/buttonlistrestaurant" />
+    </android.support.v7.widget.RecyclerView>
 
-        <Button
-            android:id="@+id/btnNearbyRestaurant"
-            android:layout_width="190dp"
-            android:layout_height="188dp"
-            android:text="nearby" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="match_parent"
+        android:layout_weight="0.98"
+        android:paddingBottom="10dp"
+        android:paddingTop="30dp"
+        android:textAlignment="center"
+        android:background="#44f18e41"
+        android:text="No Result Found"
+        android:id="@+id/noresultText"
+        android:visibility="gone"/>
 
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="190dp"
-            android:layout_height="188dp"
-            android:text="Button" />
-
-        <Button
-            android:id="@+id/button11"
-            android:layout_width="190dp"
-            android:layout_height="188dp"
-            android:text="Button" />
-
-    </GridLayout>
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="?android:attr/windowBackground"
+        android:background="@color/tema"
+        android:keepScreenOn="false"
+        app:itemIconTint="@color/common_google_signin_btn_text_dark_default"
+        app:itemTextColor="@color/ef_white"
         app:menu="@menu/navigation" />
 </LinearLayout>

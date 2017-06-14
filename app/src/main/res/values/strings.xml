@@ -15,7 +15,16 @@
 
     <string name="google_maps_key">AIzaSyDPWVM1ogk7TmSfhaV-G_bcQTsiqgYEUfI</string>
     <string name="title_activity_test">TestActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_restaurant">Restaurant</string>
+    <string name="title_nearby">Nearby</string>
+    <string name="title_promo">Promo</string>
+
+    <string name="search_title"></string>
+    <string name="search_hint"></string>
+    <string name="logout_title">Log out</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

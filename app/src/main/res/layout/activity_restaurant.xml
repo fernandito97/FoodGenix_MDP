@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#44f18e41">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/profileLayout"
+        android:visibility="visible">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:text="Nama Restoran"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/txtNamaResto"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24dp"
+        android:textColor="@android:color/black"
+        android:background="#88f18e41"/>
+
+    <TextView
+        android:text="Alamat Restoran"
+        android:layout_width="fill_parent"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal"
+        android:layout_height="30dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txtAlamat"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/txtNamaResto"
+        android:background="#88f18e41"/>
+
+    <RatingBar
+        android:id="@+id/ratingRestoran"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="290dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="0"
+        android:rating="5"
+        android:progressBackgroundTint="@android:color/white"
+        android:progressTint="#EEFF41"
+        android:secondaryProgressTint="#EEFF41"/>
+    <RatingBar
+        android:id="@+id/ratingNow"
+        style="?android:attr/ratingBarStyle"
+        android:layout_below="@id/txtAlamat"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="1"
+        android:rating="0"
+        android:progressBackgroundTint="@android:color/white"
+        android:progressTint="#EEFF41"
+        android:secondaryProgressTint="#EEFF41"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/menuLayout"
+        android:visibility="gone">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/listViewMakanan" />
+    </RelativeLayout>
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/tema"
+        android:keepScreenOn="false"
+        app:itemIconTint="@color/common_google_signin_btn_text_dark_default"
+        app:itemTextColor="@color/ef_white"
+        app:menu="@menu/restaurant_menu"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

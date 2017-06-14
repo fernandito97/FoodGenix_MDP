@@ -1,0 +1,19 @@
+<android.support.v7.widget.Toolbar android:id="@+id/toolbar_top"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="75dp"
+        android:src="@drawable/logo"
+        android:text="Toolbar Title"
+        android:tint="@color/common_google_signin_btn_text_dark_default" />
+
+
+</android.support.v7.widget.Toolbar>

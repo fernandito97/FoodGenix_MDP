@@ -41,5 +41,6 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.3.3'
     compile 'com.theartofdev.edmodo:android-image-cropper:2.4.+'
     compile 'com.android.support:support-vector-drawable:25.3.1'
+    compile 'com.google.android.gms:play-services-maps:8.4.0'
     testCompile 'junit:junit:4.12'
 }

@@ -28,7 +28,7 @@ public class EDWSRequest
             }
             URL url = null;
             if(requestMethod.equals("GET")){
-                url = new URL(SERVER_URL+"/"+urlPath+"?"+parameter); //untuk emulator
+                url = new URL(SERVER_URL+"/"+urlPath+((params.size()>0)?"?"+parameter:"")); //untuk emulator
             }else{
                 url = new URL(SERVER_URL+"/"+urlPath); //untuk emulator
             }
@@ -60,7 +60,7 @@ public class EDWSRequest
             }
             else
             {
-                response = "Gagal konek ke server";
+                response = "Failed";
             }
 
         }catch (MalformedURLException e)

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.genix.foodgenix.RegisterUserActivity"
+
+    android:background="@drawable/backgroudnstandard">
+    <TextView
+        android:text="Register User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="29dp"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:text="Confirm Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Address"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="Date Of Birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:text="Gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:textSize="12dp"
+        android:ems="10"
+        android:id="@+id/edUsername"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:inputType="textPassword"
+        android:textSize="12dp"
+        android:hint="Password"
+        android:ems="10"
+        android:layout_below="@+id/edUsername"
+        android:layout_alignStart="@+id/edUsername"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edPassword" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:hint="Confirm Password"
+        android:layout_below="@+id/edPassword"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/white"
+        android:layout_alignStart="@+id/edUsername"
+        android:id="@+id/edCPassword" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textSize="12dp"
+        android:ems="10"
+        android:id="@+id/edName"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_marginRight="20dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:textColor="@android:color/white"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/edAddress"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+
+    <!--EditText
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:inputType="date"
+        android:ems="10"
+        android:hint="Date of Birth"
+        android:textSize="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/edAddress"
+        android:textColor="@android:color/white"
+        android:layout_alignStart="@+id/edAddress"
+        android:id="@+id/edDate" /-->
+    <DatePicker
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/edAddress"
+        android:layout_alignStart="@+id/edAddress"
+        android:id="@+id/dpDate"
+        style="@style/date_picker_theme"
+        >
+
+    </DatePicker>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:textSize="12dp"
+        android:ems="10"
+        android:id="@+id/edEmail"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentEnd="true" />
+
+    <RadioGroup
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edEmail"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="-10dp"
+        android:checkedButton="@+id/rbMale"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Male"
+            android:textColor="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Female"
+            android:textColor="@android:color/white" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:text="Register Now"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

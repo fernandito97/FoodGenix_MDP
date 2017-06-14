@@ -17,6 +17,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -55,8 +56,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import com.loopj.android.http.*;
 import com.squareup.picasso.Picasso;
-import com.theartofdev.edmodo.cropper.CropImage;
-import com.theartofdev.edmodo.cropper.CropImageView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -74,13 +73,11 @@ public class MyRestaurantActivity extends AppCompatActivity {
     Switch swOpenSchedule;
     @Bind(R.id.layoutTime)
     LinearLayout layoutTime;
-    @Bind(R.id.btnChangePic)
-    Button btnChangePicture;
     @Bind(R.id.imageView)
     ImageView imageView;
     @Bind(R.id.btnSave)
     Button btnSave;
-    Uri image = null;
+    Image image = null;
     @Bind(R.id.edAddress)
     EditText edAddress;
     @Bind(R.id.edPhoneNumber)
@@ -113,6 +110,7 @@ public class MyRestaurantActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_restaurant);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         restaurant_id = Integer.parseInt(SaveSharedPreferences.getUserID(getApplicationContext()));
         timeSet.put("TIME_OPEN_MONDAY","00:00:00");
         timeSet.put("TIME_OPEN_TUESDAY","00:00:00");
@@ -146,7 +144,7 @@ public class MyRestaurantActivity extends AppCompatActivity {
                 }
             }
         });
-        btnChangePicture.setOnClickListener(new View.OnClickListener() {
+        imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 start();
@@ -321,6 +319,13 @@ public class MyRestaurantActivity extends AppCompatActivity {
     }
 
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == android.R.id.home){
+            finish();
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
     public void bindRestaurant(int id) {
         HashMap<String, String> params = new HashMap<>();
@@ -371,7 +376,7 @@ public class MyRestaurantActivity extends AppCompatActivity {
     }
     public void start() {
 
-        /*
+
         ImagePicker imagePicker = ImagePicker.create(this)
                 .folderMode(true) // set folder mode (false by default)
                 .folderTitle("Folder") // folder selection title
@@ -381,24 +386,17 @@ public class MyRestaurantActivity extends AppCompatActivity {
                 .showCamera(true) // show camera or not (true by default)
                 .imageDirectory("Camera")   // captured image directory name ("Camera" folder by default)
                 .start(RC_REQUEST); // start image picker activity with request code
-                */
-    }
 
+    }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == RC_REQUEST) {
-            CropImage.ActivityResult result = CropImage.getActivityResult(data);
-            if (resultCode == RESULT_OK) {
-
-                image = result.getUri();
-                imageView.setImageBitmap(getBitmap(image));
-            } else if (resultCode == CropImage.CROP_IMAGE_ACTIVITY_RESULT_ERROR_CODE) {
-                Exception error = result.getError();
-            }
+        if (requestCode == RC_REQUEST && resultCode == RESULT_OK && data != null) {
+            image = ImagePicker.getImages(data).get(0);
+            imageView.setImageBitmap(getBitmap(Uri.parse(image.getPath())));
         }
     }
 
-    private Bitmap getBitmap(Uri uri) {
+    public static Bitmap getBitmap(Uri uri) {
         File imgFile = new File(uri.getPath());
         if (imgFile.exists()) {
             Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
@@ -412,7 +410,7 @@ public class MyRestaurantActivity extends AppCompatActivity {
         params.put("EMAIL",edEmail.getText().toString());
         params.put("ADDRESS",edAddress.getText().toString());
         params.put("NAME",txtNama.getText().toString());
-        params.put("BIO","restaurant"+restaurant_id+".jpg");
+        params.put("BIO",restaurant_id+".jpg");
         params.put("STATUS","1");
         HashMap<String,String> mapAll = new HashMap<>();
         mapAll.putAll(params);
@@ -450,6 +448,7 @@ public class MyRestaurantActivity extends AppCompatActivity {
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
             btnSave.setText("Save");
+            finish();
         }
     }
 }

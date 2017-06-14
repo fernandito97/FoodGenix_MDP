@@ -1,6 +1,9 @@
 package com.genix.foodgenix;
 
+import android.app.ActionBar;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -32,6 +35,10 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setCustomView(R.layout.actionbar_custom_view_non_home);
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#f18e41")));
+
         btnSignIn = (Button)findViewById(R.id.btn_signin);
         edUserName = (EditText)findViewById(R.id.username);
         edPassword= (EditText)findViewById(R.id.password);
@@ -51,6 +58,44 @@ public class LoginActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(HashMap<String,String>... params) {
             String response = EDWSRequest.Request("POST","restaurant/login",params[0]);
+            return response;
+        }
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            btnSignIn.setText("Signing In...");
+            btnSignIn.setEnabled(false);
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+            try {
+                JSONObject nodeRoot  = new JSONObject(s);
+                JSONObject nodeStats = nodeRoot.getJSONObject("result");
+                String userID = nodeStats.getString("NO");
+                SaveSharedPreferences.setUserID(LoginActivity.this,userID);
+                SaveSharedPreferences.setIsRestaurant(getApplicationContext(),true);
+                Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                startActivity(intent);
+                finishAffinity();
+
+            } catch (JSONException e) {
+                HashMap<String,String> params = new HashMap<>();
+                params.put("username",edUserName.getText().toString());
+                params.put("password",edPassword.getText().toString());
+                SaveSharedPreferences.setIsRestaurant(getApplicationContext(),false);
+                new cekUserTask().execute(params);
+            }
+            btnSignIn.setText("Sign In");
+            btnSignIn.setEnabled(true);
+        }
+    }
+    private class cekUserTask extends AsyncTask<HashMap<String,String>,Void,String>
+    {
+        @Override
+        protected String doInBackground(HashMap<String,String>... params) {
+            String response = EDWSRequest.Request("POST","user/login",params[0]);
             return response;
         }
         @Override
